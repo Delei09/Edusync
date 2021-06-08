@@ -1,4 +1,25 @@
 .header{
     height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1167px;
+    height: 48px;
+}
+.headerLink{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+.headerLink a{  
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    font-family: Open Sans, ;
+    letter-spacing: -2%;
+}
+.link:hover{
+    border-bottom: 1px solid black;
+    color: white;
 
 }
