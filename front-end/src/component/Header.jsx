@@ -5,7 +5,7 @@ import Logo from './Logo'
 const Header = () => {
 
     return (
-        <header className = 'header container'>
+        <header className = 'header '>
            <div className= 'headerLink'>
                 <Logo />
                 <a className = 'link'  href = '#' >How it works</a>

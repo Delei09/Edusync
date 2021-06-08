@@ -5,6 +5,7 @@
     align-items: center;
     width: 1167px;
     height: 48px;
+    margin: 0 auto;
 }
 .headerLink{
     display: flex;

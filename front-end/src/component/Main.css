@@ -24,9 +24,12 @@ line-height: 57px;
 letter-spacing: -0.02em;
 text-align: left;
 color: white;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 }
 .contentTextoSpan{
-    font-family: Poppins;
+font-family: Poppins;
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
@@ -34,4 +37,5 @@ line-height: 57px;
 letter-spacing: -0.02em;
 text-align: left;
 color: #FFEAA4;
+margin-bottom: 60px;
 }
