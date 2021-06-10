@@ -5,25 +5,25 @@ const Formulario = () => {
 
     return (
         <form>
-                <input type = "text" className = "form-control input"
+                <input type = "text" className = " input"
                 placeholder = 'Type here what are you looking for'
                 />
                 <div className = 'formOpcao'>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" 
+                    <div class="radio1">
+                        <input class="radio" type="radio" 
                                 name="opcao" id="teacher" />
-                        <label class="form-check-label" htmlFor ="teacher">
+                        <label class="labelRadio" htmlFor ="teacher">
                             I'M A TEACHER
                         </label>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="opcao" 
+                    <div class="radio2">
+                        <input class="radio" type="radio" name="opcao" 
                                 id="student" />
-                        <label class="form-check-label" for="student">
+                        <label class="labelRadio" for="student">
                             I'M A STUDENT
                         </label>
                     </div>
-                    <button className="btn btn-warning">SEARCH</button>
+                    <button className="buttonSearch">SEARCH</button>
                 </div>
         </form>
     )
