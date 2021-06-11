@@ -7,12 +7,15 @@
     height: 48px;
     margin: 0 auto;
 }
-.headerLink{
+.buttonMenu{
+    display: none;
+}
+.menuHidden{
     display: flex;
     gap: 10px;
     color: white;
 }
-.headerLink a{  
+.menuHidden a{  
     padding: 7px;
     color: white;
     text-decoration: none;
@@ -22,5 +25,30 @@
 .link:hover{
     border-bottom: 1px solid black;
     color: white;
-
+}
+.buttonGet{
+    width: 165px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #ffD74f;
+    color: #6F48Ec;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+}
+@media screen and (max-width: 1440px) {
+    .header{
+        width: 100vw;
+        padding: 15px;
+}
+}
+@media screen and (max-width: 550px) {
+    .buttonMenu{
+        display: flex;
+        gap: 20px;
+    }
+    .menuHidden{
+        display: none;
+    }
 }

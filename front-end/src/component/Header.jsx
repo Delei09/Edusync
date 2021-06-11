@@ -1,19 +1,27 @@
 import React from 'react'
 import './Header.css'
 import Logo from './Logo'
+import buttonMenu from '../img/hamburger.png'
 
 const Header = () => {
 
     return (
         <header className = 'header '>
-           <div className= 'headerLink'>
+            <div className = 'buttonMenu'>
+                <a href = ' #' > <img className = 'hamb' src = {buttonMenu} alt = 'botao menu' />    </a>  
                 <Logo />
-                <a className = 'link'  href = '#' >How it works</a>
-                <a className = 'link' href = '#' >About US</a>
-           </div>
-                <button className = 'btn btn-warning'>
+            </div>
+            <div className = ' menuHidden   '>
+                <div className= 'headerLink'>
+                    <Logo />
+                    <a className = 'link'  href = '#' >How it works</a>
+                    <a className = 'link' href = '#' >About US</a>
+                 </div>
+                <button className = 'buttonGet'>
                     Get Started
                 </button>
+            </div>
+          
 
         </header>
     )

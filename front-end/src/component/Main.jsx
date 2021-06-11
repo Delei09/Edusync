@@ -2,12 +2,14 @@ import React from 'react'
 import Header from './Header'
 import Formulario from './Formulario'
 import './Main.css'
+import Detalhe from './Detalhe'
 
 const Main = () => {
 
     return (
         <main className = 'main'>
             <Header />
+            <Detalhe />
             <div className = 'content'>
                 <div className = 'contentTexto'>
                     <h1>Find Your</h1>

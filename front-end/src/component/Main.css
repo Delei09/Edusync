@@ -1,6 +1,9 @@
 .main{
     background: linear-gradient(180deg, #7A57FD 0%, #6135D7 100%);
     height: 821px;
+    width: 100vw;
+    overflow: hidden;
+
 }
 main:first-child{
     padding-top: 27px;
@@ -11,8 +14,10 @@ main:first-child{
     height: 452px;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 18.254%;
+    left: 47.88%;
     margin: 0 auto;
-    margin-top: 130px;
 }
 
 .contentTexto{
@@ -39,3 +44,59 @@ text-align: left;
 color: #FFEAA4;
 margin-bottom: 60px;
 }
+@media screen and (max-width: 2050px) {
+    .content{
+        left: 32.88%;
+    }
+}
+@media screen and (max-width: 1800px) {
+    .content{
+        left: 38.04%;
+    }
+    }
+    @media screen and (max-width: 1440px) {
+        .content{
+            top: 21.60%;
+            left: 46.04%;
+        }
+    }
+    @media screen and (max-width: 1300px) {
+        .content{
+            width: 450px;
+            margin: 0 auto;
+        }
+    }
+    @media screen and (max-width: 950x) {
+
+        .content{
+            width: 450px;
+            position: relative;
+            left: 0;
+            top: 0;
+            margin: 25px auto;
+        }
+    }
+    @media screen and (max-width: 550px){
+        .content h4{
+            display: none;
+           
+        }
+        .content{
+            width: 272px;
+            height: 176px;
+            margin: 0 auto;
+        }
+        .contentTexto , .contentTextoSpan{
+            font-size: 28px;
+            letter-spacing: -0.06em;
+        }
+        .contentTexto{
+            margin-top: 60px;
+        }
+        .contentTextoSpan{
+             margin-bottom: 0;
+        }
+        .main{
+            height: 854px;
+        }
+    }
