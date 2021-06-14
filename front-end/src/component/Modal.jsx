@@ -3,11 +3,19 @@ import './Modal.css'
 import olho from '../img/icon-eye.png'
 import olhoMostrar from '../img/icon-eye-show.png'
 
-const Modal = () => {
+const Modal = (props) => {
+    function teste(){
+        console.log(props.teste)
+    }
+    function fechar(){
+        const tag = document.querySelector('.compModal')
+        tag.classList.add('modalSumir')
+    }
+    
     return(
-        <section className = ' compModal' >
+        <section className = {`modalSumir compModal }` }>
             <div className = 'modal-container' >
-                <button className = ' fechar' >X</button>
+                <button className = ' fechar' onClick = {fechar} >X</button>
                 <div className = ' modal-texto'> 
                     <h2>Get Started <br/> <span className = ' just'>JUST LOGIN</span>  </h2>
                     

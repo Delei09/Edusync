@@ -6,6 +6,7 @@
     width: 1167px;
     height: 48px;
     margin: 0 auto;
+    padding: 10px;
 }
 .buttonMenu{
     display: none;

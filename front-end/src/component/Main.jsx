@@ -11,7 +11,6 @@ const Main = () => {
     return (
         <main className = 'main'>
             <Header />
-            <ModalMenu />
             <Detalhe />
             <div className = 'content'>
                 <div className = 'contentTexto'>
