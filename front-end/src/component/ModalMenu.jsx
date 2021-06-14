@@ -11,12 +11,12 @@ const ModalMenu =  () => {
                 <button className = 'containerModalMenuButton'>X</button>
             </header>
 
-            <div>
+            <div className = ' modalMenuOpcao'>
                 <ul>
                     <li> <a href = ' #'>How it works</a> </li>
                     <li> <a href = ' #'>About Us</a> </li>
                 </ul>
-                <button type = ' submit ' >Get Started</button>
+                <button type = ' submit ' className = ' '>Get Started</button>
             </div>
         </div>
    
