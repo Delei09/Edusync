@@ -21,8 +21,6 @@ const Header = () => {
                     Get Started
                 </button>
             </div>
-          
-
         </header>
     )
 }

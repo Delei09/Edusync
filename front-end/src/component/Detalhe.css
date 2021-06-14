@@ -10,7 +10,7 @@
     height: 956px;
     top : -0.089% ;
     left: 71.325%;
-    position:relative;
+    position:fixed;
 }
 @media screen and (max-width: 2050px) {
 .detalhe1{
@@ -26,7 +26,6 @@
     }
     .detalhe2{
         left: 75.85%;
-        position: relative;
     }
     }
     @media screen and (max-width: 1440px) {
@@ -51,18 +50,20 @@
             display: none;
         }
         .detalhe1{
-            width: 357px;
-            height: 476px;
-            top: 70%;
-            left: 27%;
+            width: 307px;
+            height: 426px;
+            top: 90%;
+            left: 30%;
+            transform: translateY(75%) translateX(0%);
         }
     }
     
     @media screen and (max-width: 550px) {
         .detalhe1{
-            height: 400px;
-            top: 85%;
-            left: 2%;
+            height: 480px;
+            top: 50%;
+            left: 16%;
+            transform: translateY(55%) translateX(0%);            
 
         }
     }

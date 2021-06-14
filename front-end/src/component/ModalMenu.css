@@ -1,0 +1,26 @@
+.containerModalMenu{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    display: flex;
+    background: #200E64;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.containerModalMenu header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 272px;
+}
+.containerModalMenuButton{
+    width: 14px;
+    border: none;
+    color: white;
+    background: #200E64;
+    
+}
