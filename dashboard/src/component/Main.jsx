@@ -9,7 +9,7 @@ const Main = () => {
     return(
         <main className = ' main'>
             <div className="item">
-                <img src = {Imagem} alt = ' imagem' className = ' imagem-item' />
+                <img src = {Imagem} alt = ' imagem' className = ' imagem-item-mesa' />
                 <div className="item-button">
                     <div className="div-estrelas">
                         <img src = {EstrelaA} alt = ' imagem' className = ' imagem-item' />
@@ -24,7 +24,7 @@ const Main = () => {
             </div>
 
             <div className="item">
-                <img src = {Imagem} alt = ' imagem' className = ' imagem-item' />
+                <img src = {Imagem} alt = ' imagem' className = ' imagem-item-mesa' />
                 <div className="item-button">
                     <div className="div-estrelas">
                         <img src = {EstrelaA} alt = ' imagem' className = ' imagem-item' />
@@ -39,7 +39,7 @@ const Main = () => {
             </div>
 
             <div className="item">
-                <img src = {Imagem} alt = ' imagem' className = ' imagem-item' />
+                <img src = {Imagem} alt = ' imagem' className = ' imagem-item-mesa' />
                 <div className="item-button">
                     <div className="div-estrelas">
                         <img src = {EstrelaA} alt = ' imagem' className = ' imagem-item' />
@@ -54,7 +54,7 @@ const Main = () => {
             </div>
 
             <div className="item">
-                <img src = {Imagem} alt = ' imagem' className = ' imagem-item' />
+                <img src = {Imagem} alt = ' imagem' className = ' imagem-item-mesa' />
                 <div className="item-button">
                     <div className="div-estrelas">
                         <img src = {EstrelaA} alt = ' imagem' className = ' imagem-item' />
@@ -69,7 +69,7 @@ const Main = () => {
             </div>
 
             <div className="item">
-                <img src = {Imagem} alt = ' imagem' className = ' imagem-item' />
+                <img src = {Imagem} alt = ' imagem' className = ' imagem-item-mesa' />
                 <div className="item-button">
                     <div className="div-estrelas">
                         <img src = {EstrelaA} alt = ' imagem' className = ' imagem-item' />
@@ -84,7 +84,7 @@ const Main = () => {
             </div>
 
             <div className="item">
-                <img src = {Imagem} alt = ' imagem' className = ' imagem-item' />
+                <img src = {Imagem} alt = ' imagem' className = ' imagem-item-mesa' />
                 <div className="item-button">
                     <div className="div-estrelas">
                         <img src = {EstrelaA} alt = ' imagem' className = ' imagem-item' />
@@ -97,6 +97,9 @@ const Main = () => {
                 </div>
                 <h2> Master English: Improve Your Speaking </h2>
             </div>
+
+      
+
          
         </main>
     )

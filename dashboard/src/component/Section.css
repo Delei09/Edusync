@@ -1,23 +1,23 @@
 .section{
-    max-width: 1140px;
+    width: 79.17vw;
     margin: 0 auto;
-    height: 235px;
+    height: 20.93vh;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
-    padding: 12px;
+    margin-top: 2.67vh;
+    
 }
 .imagemMesa{
-    width: 209px;
-    height: 173px;
-    margin-right: 202px;
+    width: 14.51vw;
+    height: 15.41vh;
+    margin-right: 14.03vw;
 }
 .section-texto{
-    margin-left: 118px;
-    height: 88px;
-    width: 521px;
+    margin-left: 8.19vw;
+    height: 7.84vh;
+    width: 36.18vw;
     display: flex;
     flex-direction: column;
 }
@@ -25,7 +25,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 21px;
+    font-size: 1.46vw;
     line-height: 160%;
     color: #200E64;
 
@@ -37,14 +37,62 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size:  0.97vw;
     line-height: 22.4px;
     color: #343434;
 }
 .detalhe{
-    width: 126px;
-    height: 150px;
-    top: 128px;
-    left: 112px;
+    width: 8.75vw;
+    height: 13.3%;
+    top: 19.4%;
+    left: 7.77%;
     position: absolute;
+}
+
+@media  screen and (max-width: 950px) {
+  
+    .section-texto h2{
+        font-size: 2.76vw;
+        margin-top: 1%;
+    }
+    .student{
+        font-weight: bold;
+    }
+    .section-texto h4{
+        font-size:  1.67vw;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    .section{
+       width: 85vw;
+       height: 212px;
+       margin-top: 10%;
+        
+    }
+    .imagemMesa{
+       display: none;
+    }
+    .section-texto{
+        height: 100%;
+        width: 100%;
+        padding: 5.83vw;
+    }
+    .section-texto h2{
+        font-size: 6.56vw;
+        margin-top: 15%;
+    }
+    .student{
+        font-weight: bold;
+    }
+    .section-texto h4{
+        font-size:  4.37vw;
+    }
+    .detalhe{
+        width: 17.77vw;
+        height: 13.36vh;
+        top: 12.4%;
+        left: 73.77%;
+        position: absolute;
+    }
 }

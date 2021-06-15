@@ -1,6 +1,6 @@
 .item{
     height: 323px;
-    width: 360px;
+    max-width: 348px;
     border-radius: 4px;
     background: #FFFFFF;
     box-shadow: 0px 32px 60px rgba(84, 95, 122, 0.08);
@@ -12,10 +12,55 @@
 .main{
     display: flex;
     flex-wrap: wrap;
-    width: 1170px;
+    width: 79.17vw;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
- 
     margin-top: 30px;
+}
+.item-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.buttonEstrela{
+    height: 23.422222137451172px;
+    width: 89.17760467529297px;
+    border-radius: 4px;
+    border: none;
+    background: #CFC9E9;
+   
+}   
+.div-estrelas{
+    display: flex;
+    gap: 3px;
+}
+@media  screen and (max-width: 380px) {
+    .item{
+        height: 323px;
+        max-width: 348px;
+        border-radius: 4px;
+        background: #FFFFFF;
+        box-shadow: 0px 32px 60px rgba(84, 95, 122, 0.08);
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        margin-bottom: 30px;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        width: 79.17vw;
+        margin: 0 auto;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .imagem-item-mesa{
+        width: 100%;
+        height: auto;
+    }
+    
 }
