@@ -48,7 +48,7 @@
         padding: 15px;
 }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 950px) {
     .buttonMenu{
         display: flex;
         gap: 20px;

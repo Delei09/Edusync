@@ -55,12 +55,10 @@ input[type='radio']:checked:after {
     color: white;
 }
 
-
-
-
 .bordaRadio1 ,.bordaRadio2 {
     background: #7955E8;
-    width: 7.30vw;
+    width: 130px;
+    padding: 3px;
     height: 4.99vh;
     border-radius: 4px;
     border: 1px solid #A68EEF;
@@ -85,19 +83,9 @@ input[type='radio']:checked:after {
         width: 100%;
 }
 }
-@media screen and (max-width: 1300px){
-    radio1 {
-        background: #7955E8;
-        width: 47%;
-        margin: 10px 0;
+
+@media screen and (max-width: 1440px) {
+
 }
-.buttonSearch{
-    width: 100%;
-}
-.formOpcao{
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 0;
-}
-}
+
 

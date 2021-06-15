@@ -34,7 +34,7 @@
 }
 .buttonLogin{
     height: 48px;
-    width: 132.5150909423828px;
+    width: 132.54px;
     border-radius: 4px;
     border: none;
     background: #FFD74F;
@@ -76,11 +76,13 @@
     top: 64%;
     left: 85%;
     display: none;
+    
 }
 .olhoMostrar{
     position: absolute;
     top: 64%;
     left: 85%;
+   
 }
 .modalAparecer{
     display: flex;
@@ -90,10 +92,60 @@
 }
 @media screen and (max-width: 550px){
     .modal-container{
-        max-width: 350px;
+        width: 100vw;
+        height: 100vh;
     }
     .nome , .password{
-        height: 56px;
-        max-width: 290px;
+        height: 8.75vh;
+        width: 85vw;
+        margin: 0 9% 2%;
         }
+    .fechar{
+        width: 15.94vw;
+        height: 7.97vh;
+        background: #6A40E4;
+        top: 1%;
+        right: 1%;
+        color: white;
+        border: none;
+    }
+    .olho{
+        position: absolute;
+        top: 64%;
+        left: 85%;
+        display: none;
+        width: 5.3vw;
+    height: 2.19vh;
+    }
+    .olhoMostrar{
+        position: absolute;
+        top: 41%;
+        right: 6%;
+        width: 6.3vw;
+        height: 4.19vh;
+    }
+    .modal-texto{
+        width: 84.38vw;
+        height: 11.88vh;
+        margin: 7% auto;
+    }
+    .modal-container h2{
+        font-size: 4.52vh;
+        letter-spacing: -6%;
+        }
+    .just{
+        font-size: 5vh;
+        font-weight: 700;
+        letter-spacing: -2%;
+    }
+    .modal-container label{
+        font-size: 2.56vh;
+        color: white;   
+        margin: 1% 9%; 
+    }
+    .buttonLogin{
+        margin-right: 6%;
+        margin-top: 7%;
+        font-size: 100%;
+    }
 }

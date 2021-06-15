@@ -1,0 +1,50 @@
+.section{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 235px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 12px;
+}
+.imagemMesa{
+    width: 209px;
+    height: 173px;
+    margin-right: 202px;
+}
+.section-texto{
+    margin-left: 118px;
+    height: 88px;
+    width: 521px;
+    display: flex;
+    flex-direction: column;
+}
+.section-texto h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 160%;
+    color: #200E64;
+
+}
+.student{
+    font-weight: bold;
+}
+.section-texto h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #343434;
+}
+.detalhe{
+    width: 126px;
+    height: 150px;
+    top: 128px;
+    left: 112px;
+    position: absolute;
+}

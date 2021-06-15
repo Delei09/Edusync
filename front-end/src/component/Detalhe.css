@@ -12,7 +12,16 @@
     left: 71.325%;
     position:absolute;
 }
-
+@media screen and (max-width: 1450px) {
+    .detalhe1{
+        top: 18.30%;
+        left: -1.18%;
+    }
+    .detalhe2{
+        top: -0.5%;
+        left: 82.84%;
+    }
+}
 
     @media screen and (max-width: 950px) {
         .detalhe2{
