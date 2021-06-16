@@ -24,11 +24,9 @@ const ModalMenu =  () => {
             </header>
 
             <div className = ' modalMenuOpcao'>
-                <ul>
-                    <li> <a href = ' #'>How it works</a> </li>
-                    <li> <a href = ' #'>About Us</a> </li>
-                </ul>
-                <button onClick ={modal} className = ' '>Get Started</button>
+                     <a href = ' #'>How it works</a> 
+                     <a href = ' #'>About Us</a> 
+                      <button onClick ={modal} className = ' '>Get Started</button>
             </div>
         </div>
    

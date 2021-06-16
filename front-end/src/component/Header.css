@@ -53,6 +53,7 @@
     .buttonMenu{
         display: flex;
         gap: 20px;
+        
     }
     .menuHidden{
         display: none;

@@ -48,20 +48,22 @@ const Formulario = () => {
                
                 />
                 <div className = 'formOpcao'>
-                    <div class="bordaRadio1 " onClick = {borda}>
-                        <input class="radio1"  checked type="radio" 
+                    <div class="bordaRadio1 " >
+                        <input class="radio1"   type="radio" 
                                 name="opcao" id="teacher"
                                 value = ' radio1'
+                                checked = {true}
+                                onClick = {borda}
                                 />
                         <label class="labelRadio" htmlFor ="teacher">
                             I'M A TEACHER
                         </label>
                     </div>
-                    <div class="bordaRadio2 sumirBorda " onClick = {borda}>
-                        <input class="radio2"type="radio" name="opcao" 
+                    <div class="bordaRadio2 sumirBorda " >
+                        <input class="radio2" type="radio" name="opcao" 
                         value = ' radio2'
                                 id="student"
-                               
+                                onClick = {borda}
                                 />
                         <label class="labelRadio" for="student">
                             I'M A STUDENT

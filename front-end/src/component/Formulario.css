@@ -7,10 +7,10 @@ margin-top: 30px;
 .input{
     color:white;
     background: #7955E8;
-    width: 27.09vw;
+    width: 100%;
     border-radius: 4px;
     border: 1px solid white;
-    height: 4.99vh;
+    height: 56px;
     padding: 12px 28px;
     margin-top: 60px;
     
@@ -51,33 +51,36 @@ input[type='radio']:checked:after {
     border: 2px solid white;
 }
 .labelRadio{
-    margin-left:8px;
     color: white;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 191.68%;
+    text-transform: uppercase;
+
 }
 
 .bordaRadio1 ,.bordaRadio2 {
-    background: #7955E8;
-    width: 160px;
-    padding: 3px;
-    height: 8.99vh;
+    width: 162px;
+    height: 56px;
     border-radius: 4px;
     border: 1px solid #A68EEF;
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 13px;
     align-items: center;
 }
 .sumirBorda{
     border: none;
-    background-color: red;
 }
 .aparecerBorda{
     border: 1px solid #A68EEF;
     background: #7955E8;
 }
 .buttonSearch{
-    width: 9.42vw;
-    height: 4.99vh;
+    width: 209px;
+    height: 56px;
     border-radius: 4px;
     background-color: #FFD74F;
     color: #744FF4;
@@ -90,10 +93,43 @@ input[type='radio']:checked:after {
     .input{
         width: 100%;
 }
+.formOpcao{
+    flex-wrap: wrap;
+}
 }
 
-@media screen and (max-width: 1440px) {
+        @media screen and (max-width: 870px){
+            .formOpcao{
+                flex-wrap: wrap;
+                margin-top: 16px;
+            }
+            .bordaRadio1 ,.bordaRadio2 {
+                width: 240px;
+            }
+            .labelRadio{
+                font-size: 10px;
+            }
+            .buttonSearch{
+                width: 100%;
+                margin-top: 16px;
+            }
 
+}
+@media screen and (max-width: 500px) {
+    .formOpcao{
+        flex-wrap: wrap;
+        margin-top: 16px;
+    }
+    .bordaRadio1 ,.bordaRadio2 {
+        width: 130px;
+    }
+    .labelRadio{
+        font-size: 10px;
+    }
+    .buttonSearch{
+        width: 100%;
+        margin-top: 16px;
+    }
 }
 
 

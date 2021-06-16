@@ -1,22 +1,19 @@
 .main{
     background: linear-gradient(180deg, #7A57FD 0%, #6135D7 100%);
-    height: 73.30vh;
+    height: 821px;
     width: 100vw;
-    overflow: hidden;
-    
-
 }
 main:first-child{
     padding-top: 27px;
 }
 
 .content{
-    width: 27.23vw;
-    height: 40.25vh;
+    width: 604px;
+    height: 452px;
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 18.254%;
+    top: 205px;
     left: 47.88%;
     margin: 0 auto;
 }
@@ -48,32 +45,58 @@ margin-bottom: 60px;
 
     @media screen and (max-width: 1450px) {
         .content{
-            width: 41.94vw;
-            height: 40.35vh;
-            top: 21.61%;
-            left: 36.04%;
-            margin: 0 auto;
-        }
-        .contentTextoSpan{
-            font-size: 44px;
+         top: 242px;
+         left: 46.04%;
         }
     }
-    @media screen and (max-width: 950px) {
 
+    @media screen and (max-width: 1150px){
+        .content h4{
+            display: none;
+           
+        }
         .content{
-            width: 450px;
+            width: 61.87vw;
+            height: 176px;
             position: relative;
             left: 0;
             top: 0;
-            margin: 25px auto;
+            margin: 0 auto;
+            margin-top: 60px
+        }
+        .contentTexto , .contentTextoSpan{
+            font-size: 36px;
+            letter-spacing: -0.06em;
+        }
+
+        .contentTextoSpan{
+             margin-bottom: 0;
         }
         .main{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            height: 854px;
         }
     }
-    @media screen and (max-width: 550px){
+
+
+    @media screen and (max-width: 870px){
+        .content h4{
+            display: none;
+           
+        }
+        .content{
+            width: 490px;
+            height: 176px;
+            margin: 0 auto;
+            position: relative;
+            left: 0;
+            top: 0;
+            margin-top: 60px
+        }
+
+    }
+    
+  
+    @media screen and (max-width: 500px){
         .content h4{
             display: none;
            
@@ -82,18 +105,20 @@ margin-bottom: 60px;
             width: 272px;
             height: 176px;
             margin: 0 auto;
+            position: relative;
+            left: 0;
+            top: 0;
+            margin-top: 60px
         }
         .contentTexto , .contentTextoSpan{
             font-size: 28px;
             letter-spacing: -0.06em;
         }
-        .contentTexto{
-            margin-top: 60px;
-        }
+
         .contentTextoSpan{
              margin-bottom: 0;
         }
         .main{
-            height: 89.7vh;
+            height: 854px;
         }
     }
