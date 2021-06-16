@@ -41,8 +41,8 @@ const Header = () =>  {
             <div className="menu-mobile">
                 <a href = '#' > <img className = ' logo-mobile' alt = ' logo' src = {Logo} /> </a>
                 <div className = 'menu-mobile-opcao'>
-                    <a href = ' #' onClick = {botaoMenu} > <img className = 'sumir setaFechar' alt = ' avatar' src = {SetaFechar} /> </a>
-                    <a href = ' #' onClick = {botaoMenu} > <img className = 'seta' alt = ' avatar' src = {Seta} /> </a>
+                    <a href = ' #' onClick = {botaoMenu} > <img className = 'sumir setaFechar' alt = ' seta' src = {SetaFechar} /> </a>
+                    <a href = ' #' onClick = {botaoMenu} > <img className = 'seta' alt = ' seta' src = {Seta} /> </a>
                     <a href = ' #' > <img className = 'avatar-mobile' alt = ' avatar' src = {Avatar} /> </a>
                 </div>
             </div>
@@ -56,12 +56,15 @@ const Header = () =>  {
                 <a href = ' #' > <img className = 'avatar' alt = ' avatar' src = {Avatar} /> </a>
             </div>
         </header>
-          <div className = 'sumir container-change'>
+
+        <div className = 'sumir container-change'>
             <div className="change">
                 <h2>CHANGE TO TEACHER MODE</h2>
-                <button> <img className = 'setaOpcao' alt = ' seta Opçao' src = {SetaOpcao} />  </button>
+                <a href= '#'> <img className = 'setaOpcao' alt = ' seta Opçao' src = {SetaOpcao} />  </a>
             </div>
         </div>
+
+        
         </>
     )
 }

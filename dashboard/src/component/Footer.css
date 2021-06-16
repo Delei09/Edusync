@@ -9,6 +9,18 @@ footer h2{
     font-size: 14px;
     color: #343434;
 }
+.footer-mobile{
+    display: none;
+}
 .eduick{
     font-weight: bold;
+}
+@media screen and (max-width:700px) {
+    .footer-mobile{
+        display: block;
+    }
+    .footer{
+        display: none;
+    }
+
 }

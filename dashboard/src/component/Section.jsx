@@ -11,7 +11,7 @@ const Section = () =>  {
         <section className = ' section'>
             <img className = 'detalhe' src = {Detalhe} />
             <div className="section-texto">
-                <h2>Hello <span className = 'student'> Student   </span> </h2>
+                <h2>Hello <span className = 'student'> Student   </span> <span className= 'ponto' >.</span>  </h2>
                 <h4>
                 Whether you are a student trying to find your ideal private language teachers/tutors
                 </h4>

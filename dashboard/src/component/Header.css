@@ -8,6 +8,7 @@
     flex-wrap: wrap;
     padding: 26px 155px;
     color: white;
+    
 }
 .container-change{
     display: none;
@@ -54,6 +55,7 @@ a{
     }
     .header{
        max-width: 100vw;
+       height: 64px;
        margin: 0 auto;
        padding: 20px;
     }
@@ -70,11 +72,11 @@ a{
         width: 88.7758560180664px;
     }
     .menu-mobile-opcao{
-        width: 62px;
+        width: 130px;
         height: 38px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         gap: 10px;
     }
     .container-change{
@@ -82,28 +84,39 @@ a{
         position: absolute;
         width: 100vw;
         height: 100%;
-        background: rgba(0,0,0,0.8);
+        background: #FFFFFF;
+        opacity: 0.8;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
     }
 
     .change{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px;
         width: 100vw;
         height: 58px;
         background-color: white;
-        z-index: 2000;
     }
-    .setaOpcao{
-        width: 16px;
+    .change a{
+        width: 26px;
         height: 12px;
         background-color: rgba(0,0,0,0.01);
+    }
+    .setaFechar{
+            width: 28px;
+            height: auto;
+            margin-right: 12px;
+    }
+    .seta{
+        width: 45px;
+      
     }
     .change h2{
         font-size: 11px;
         color: #7A57FD;
-
+        margin-left: 12px;
     }
     .sumir{
         display: none;
