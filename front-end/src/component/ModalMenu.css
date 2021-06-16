@@ -10,6 +10,7 @@
     flex-direction: column;
     color: white;
     align-items: center;
+    display: none;
 }
 .containerModalMenu header{
     padding: 10px;

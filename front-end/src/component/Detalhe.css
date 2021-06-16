@@ -4,6 +4,7 @@
     height: 82.19vh;
     top: 18.165%;
     left: 15.734%;
+    z-index: 300;
 }
 .detalhe2{
     width: 28.67vw;

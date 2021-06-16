@@ -3,30 +3,61 @@ import './Formulario.css'
 
 const Formulario = () => {
 
-    const [radio , setRadio] = useState('teacher');
+    const [input, setInput] = useState('')
+    const [radio, setRadio] = useState('teacher')
 
-    function radioSelecionado(e){
-        console.log('to aqui')
+    function inputForm(e){
+        const dados = e.target.value 
+        setInput(dados)
+    }
+    function radioForm(e){
+        const dados = e.target.value
+        console.log(dados)
+    }
+
+
+    function borda(){
+        const radio1 = document.querySelector('.bordaRadio1')
+        const radio2 = document.querySelector('.bordaRadio2')
+
+        if(radio2.classList.contains('sumirBorda')){
+
+            setRadio('student')
+
+            radio2.classList.remove('sumirBorda')
+            radio2.classList.add('aparecerBorda')
+
+            radio1.classList.remove('aparecerBorda')
+            radio1.classList.add('sumirBorda')
+        }else{
+            setRadio('teacher')
+            radio1.classList.remove('sumirBorda')
+            radio1.classList.add('aparecerBorda')
+
+            radio2.classList.remove('aparecerBorda')
+            radio2.classList.add('sumirBorda')
+        }
+        
     }
 
     return (
         <form>
                 <input type = "text" className = " input"
                 placeholder = 'Type here what are you looking for'
+                onChange = {e => inputForm(e)}
                
                 />
                 <div className = 'formOpcao'>
-                    <div class="bordaRadio1">
+                    <div class="bordaRadio1 " onClick = {borda}>
                         <input class="radio1"  checked type="radio" 
                                 name="opcao" id="teacher"
                                 value = ' radio1'
-                                onChange = {e => console.log('to aqui')}
                                 />
                         <label class="labelRadio" htmlFor ="teacher">
                             I'M A TEACHER
                         </label>
                     </div>
-                    <div class="bordaRadio2">
+                    <div class="bordaRadio2 sumirBorda " onClick = {borda}>
                         <input class="radio2"type="radio" name="opcao" 
                         value = ' radio2'
                                 id="student"

@@ -9,6 +9,25 @@
     padding: 12px;
     margin-bottom: 30px;
 }
+.opcaoPagina{
+    display: flex;
+    gap: 10px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.opcaoPagina button{
+    height: 23.422222137451172px;
+    width: 89.17760467529297px;
+    border-radius: 4px;
+    border: none;
+    background: #CFC9E9;
+    cursor: pointer;
+}
+.botaoClicado{
+    transform: scale(1.4);
+}
 .main{
     display: flex;
     flex-wrap: wrap;
@@ -62,5 +81,6 @@
         width: 100%;
         height: auto;
     }
+    
     
 }

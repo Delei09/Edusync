@@ -7,10 +7,12 @@ import ModalMenu from './ModalMenu'
 
 const Header = () => {
 
+ 
     function modal(){
         const tag = document.querySelector('.compModal')
         tag.classList.remove('modalSumir')
         tag.classList.add('modalAparecer')
+    
     }
     function menu(){
         const tag = document.querySelector('.containerModalMenu')
@@ -33,7 +35,7 @@ const Header = () => {
                     <a className = 'link'  href = '#' >How it works</a>
                     <a className = 'link' href = '#' >About US</a>
                  </div>
-                <button className = 'buttonGet'onClick = {modal} >
+                <button className = 'buttonGet' onClick = {modal}   >
                     Get Started
                 </button>
             </div>

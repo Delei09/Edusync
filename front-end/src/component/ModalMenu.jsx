@@ -13,7 +13,7 @@ const ModalMenu =  () => {
         const tag = document.querySelector('.compModal')
         tag.classList.remove('modalSumir')
         tag.classList.add('modalAparecer')
-        console.log('o nommodal')
+    
     }
 
     return(

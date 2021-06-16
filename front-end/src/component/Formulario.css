@@ -57,15 +57,23 @@ input[type='radio']:checked:after {
 
 .bordaRadio1 ,.bordaRadio2 {
     background: #7955E8;
-    width: 130px;
+    width: 160px;
     padding: 3px;
-    height: 4.99vh;
+    height: 8.99vh;
     border-radius: 4px;
     border: 1px solid #A68EEF;
     display: flex;
     justify-content: center;
     gap: 8px;
     align-items: center;
+}
+.sumirBorda{
+    border: none;
+    background-color: red;
+}
+.aparecerBorda{
+    border: 1px solid #A68EEF;
+    background: #7955E8;
 }
 .buttonSearch{
     width: 9.42vw;

@@ -1,8 +1,9 @@
 .main{
     background: linear-gradient(180deg, #7A57FD 0%, #6135D7 100%);
     height: 73.30vh;
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
+    
 
 }
 main:first-child{
