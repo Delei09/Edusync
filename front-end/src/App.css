@@ -1,4 +1,10 @@
 .App{
     position:relative;
-    overflow: hidden;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.back{
+    background: #200E64;
+    width: 100vw;
+    height: auto;
 }

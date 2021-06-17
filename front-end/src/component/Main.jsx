@@ -3,8 +3,6 @@ import Header from './Header'
 import Formulario from './Formulario'
 import './Main.css'
 import Detalhe from './Detalhe'
-import Modal from './Modal'
-import ModalMenu from './ModalMenu'
 
 const Main = () => {
 

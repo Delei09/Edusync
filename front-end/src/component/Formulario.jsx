@@ -10,19 +10,13 @@ const Formulario = () => {
         const dados = e.target.value 
         setInput(dados)
     }
-    function radioForm(e){
-        const dados = e.target.value
-        
-    }
-
-
+ 
     function borda(){
         const radio1 = document.querySelector('.bordaRadio1')
         const radio2 = document.querySelector('.bordaRadio2')
-        const inputRadio1 =document.querySelector('.input-radio1')
-        const inputRadio2 =document.querySelector('.input-radio2')
+        const inputRadio1 = document.querySelector('.input-radio1')
+        const inputRadio2 = document.querySelector('.input-radio2')
 
-        console.log(inputRadio1)
 
         if(radio2.classList.contains('sumirBorda')){
 
@@ -60,11 +54,11 @@ const Formulario = () => {
 
     return (
         <form>
-                <input type = "text" className = " input"
-                placeholder = 'Type here what are you looking for'
-                onChange = {e => inputForm(e)}
-               
-                />
+            <input type = "text" className = " input"
+            placeholder = 'Type here what are you looking for'
+            onChange = {e => inputForm(e)}
+            
+            />
                 <div className = 'formOpcao'>
                     <div class="bordaRadio1 " >
                         <input class="radio1"   type="radio" 
@@ -73,24 +67,26 @@ const Formulario = () => {
                                 checked = {true}
                                 onClick = {borda}
                                 className= 'input-radio1 checkOk'
-                                />
+                        />
                         <label class="labelRadio" htmlFor ="teacher">
                             I'M A TEACHER
                         </label>
                     </div>
-                    <div class="bordaRadio2 sumirBorda " >
-                        <input class="radio2" type="radio" name="opcao" 
-                        value = ' radio2'
-                                id="student"
-                                onClick = {borda}
-                                className= 'input-radio2 check'
-                                />
-                        <label class="labelRadio" for="student">
-                            I'M A STUDENT
-                        </label>
-                    </div>
-                    <button className="buttonSearch">SEARCH</button>
+
+                <div class="bordaRadio2 sumirBorda " >
+                    <input class="radio2" type="radio" name="opcao" 
+                    value = ' radio2'
+                            id="student"
+                            onClick = {borda}
+                            className= 'input-radio2 check'
+                    />
+                    <label class="labelRadio" for="student">
+                        I'M A STUDENT
+                    </label>
                 </div>
+                <button className="buttonSearch">SEARCH</button>
+
+            </div>
         </form>
     )
 }

@@ -11,6 +11,7 @@ const Modal = (props) => {
     }
 
      function  aparecerSenha(){
+
         const olho = document.querySelector('.olho')
         const olhoMostrar = document.querySelector('.olhoMostrar')
         const password = document.querySelector('.password')
@@ -49,13 +50,12 @@ const Modal = (props) => {
                 <button className = ' fechar' onClick = {fechar} >X</button>
                 <div className = ' modal-texto'> 
                     <h2>Get Started <br/> <span className = ' just'>JUST LOGIN</span>  </h2>
-                    
                 </div>
                 <label htmlFor = ' nome' >Username:</label>
                 <input className = ' nome' type = ' text' id = ' nome' />
                 <label htmlFor = ' password' >Password:</label>
-                    <img src = {olho} className = ' olho modalSumir' onClick = {aparecerSenha} />
-                    <img src = {olhoMostrar} className = ' olhoMostrar '  onClick = {aparecerSenha} />
+                    <img alt= 'olho' src = {olho} className = ' olho modalSumir' onClick = {aparecerSenha} />
+                    <img alt = 'olho' src = {olhoMostrar} className = ' olhoMostrar '  onClick = {aparecerSenha} />
                 <input  type = 'password' className = ' password'  id = ' password'  />
                 <button type = ' submit ' className = ' buttonLogin'>login</button>
             </div>

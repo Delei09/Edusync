@@ -23,8 +23,8 @@ const Header = () => {
     return (
        
         <header className = 'header '>
-             <Modal />
-             <ModalMenu />
+            <Modal />
+            <ModalMenu />
             <div className = 'buttonMenu'>
                 <a href = ' #' onClick = {menu} > <img className = 'hamb' src = {buttonMenu} alt = 'botao menu' />    </a>  
                 <Logo />
@@ -34,7 +34,7 @@ const Header = () => {
                     <Logo />
                     <a className = 'link'  href = '#' >How it works</a>
                     <a className = 'link' href = '#' >About US</a>
-                 </div>
+                </div>
                 <button className = 'buttonGet' onClick = {modal}   >
                     Get Started
                 </button>

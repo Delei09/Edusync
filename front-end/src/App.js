@@ -1,15 +1,15 @@
 import './App.css';
-import  Header from './component/Header'
 import Main from './component/Main'
-import Formulario from './component/Formulario'
 import Footer from './component/Footer'
-import Modal from './component/Modal';
 
 function App() {
   return (
     <div className="App">
-      <Main />
-      <Footer />
+     
+          <Main />
+          <div className = 'back'/>
+          <Footer />
+      
     </div>
   );
 }

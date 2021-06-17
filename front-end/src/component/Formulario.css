@@ -40,7 +40,7 @@ margin-top: 30px;
 .checkOk:after {
     width: 15px;
     height: 15px;
-    border-radius: 15px;
+    border-radius: 50%;
     top: -2px;
     left: -1px;
     position: relative;
@@ -91,36 +91,20 @@ margin-top: 30px;
 @media screen and (max-width: 1440px) {
     .input{
         width: 100%;
-}
-.formOpcao{
-    flex-wrap: wrap;
-}
+    }
+    .formOpcao{
+        flex-wrap: wrap;
+    }
 }
 
-        @media screen and (max-width: 870px){
-            .formOpcao{
-                flex-wrap: wrap;
-                margin-top: 16px;
-            }
-            .bordaRadio1 ,.bordaRadio2 {
-                width: 240px;
-            }
-            .labelRadio{
-                font-size: 10px;
-            }
-            .buttonSearch{
-                width: 100%;
-                margin-top: 16px;
-            }
+@media screen and (max-width: 870px){
 
-}
-@media screen and (max-width: 500px) {
     .formOpcao{
         flex-wrap: wrap;
         margin-top: 16px;
     }
     .bordaRadio1 ,.bordaRadio2 {
-        width: 130px;
+        width: 240px;
     }
     .labelRadio{
         font-size: 10px;
@@ -128,6 +112,13 @@ margin-top: 30px;
     .buttonSearch{
         width: 100%;
         margin-top: 16px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+
+    .bordaRadio1 ,.bordaRadio2 {
+        width: 130px;
     }
 }
 
