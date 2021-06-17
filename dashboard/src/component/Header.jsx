@@ -9,7 +9,7 @@ import SetaOpcao from '../img/setaOpcao.png'
 const Header = () =>  {
 
     function botaoMenu (){
-        const tag = document.querySelector('.container-change')
+        const tag = document.querySelector('.menuMobileChange')
         const seta = document.querySelector('.seta')
         const setaFechar = document.querySelector('.setaFechar')
 
@@ -59,11 +59,12 @@ const Header = () =>  {
                 </div>
             </header>
 
-            <div className = 'sumir container-change'>
+            <div className = 'sumir menuMobileChange'>
                 <div className="change">
                     <h2>CHANGE TO TEACHER MODE</h2>
                     <a href= '#'> <img className = 'setaOpcao' alt = ' seta Opçao' src = {SetaOpcao} />  </a>
                 </div>
+                <div className = 'container-change' />
             </div>
 
         
