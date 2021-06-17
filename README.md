@@ -7,8 +7,12 @@ Projeto feito para o processo seletivo da edusync
 
 Para executar o codigo siga os passos abaixo.
 
+=> Abra a pasta em que vai salvar e dentro dela execute o Git com o comando git init
+
 => Clone o repositorio atravéz do git com o comando git clone git@github.com:Delei09/Edusync.git
 
-=> Para executar a tela Lading Page, abra a pasta front-end no terminal do VsCode e dentro da pastar execute o comando npm start ou yarn start
+=> Abra a pasta clonada $ cd Edusync
 
-=> Para executar a tela Dashboard, abra a pasta dashboard no terminal do VsCode e dentro da pastar execute o comando npm start ou yarn start
+=> Para executar a tela Lading Page, abra a pasta front-end no terminal do VsCode e dentro da pastar execute o comando npm i para instalar a pasta node_modules depois rode o projeto com o comando npm start ou yarn start
+
+=> Para executar a tela Dashboard, abra a pasta dashboard no terminal do VsCode e dentro da pastar execute o comando  npm i para instalar a pasta node_modules  depois rode o projeto com o comando  npm start ou yarn start
