@@ -108,16 +108,15 @@ const Main = () => {
 
     return(
         <>
-        <main className = ' main'>
-            {pagina}
-
-        </main>
-        <div className = 'opcaoPagina'>
-            <button className = ' bt1 botaoClicado'  value = '1' onClick = {e => paginacao(e)} >1</button>
-            <button className = 'bt2'  value = '2' onClick = {e => paginacao(e)} >2</button>
-            <button className = 'bt3'  value = '3' onClick = {e => paginacao(e)} >3</button>
-        </div>
-    </>
+            <main className = ' main'>
+                {pagina}
+            </main>
+            <div className = 'opcaoPagina'>
+                <button className = ' bt1 botaoClicado'  value = '1' onClick = {e => paginacao(e)} >1</button>
+                <button className = 'bt2'  value = '2' onClick = {e => paginacao(e)} >2</button>
+                <button className = 'bt3'  value = '3' onClick = {e => paginacao(e)} >3</button>
+            </div>
+        </>
     )
 }
 

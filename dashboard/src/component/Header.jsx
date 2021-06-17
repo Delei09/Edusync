@@ -39,32 +39,32 @@ const Header = () =>  {
 
     return(
         <>
-        <header className = 'header '>
-            <div className="menu-mobile ">
-                <a href = '#' > <img className = ' logo-mobile' alt = ' logo' src = {Logo} /> </a>
-                <div className = 'menu-mobile-opcao'>
-                    <a href = ' #' onClick = {botaoMenu} > <img className = 'sumir setaFechar' alt = ' seta' src = {SetaFechar} /> </a>
-                    <a href = ' #' onClick = {botaoMenu} > <img className = 'seta' alt = ' seta' src = {Seta} /> </a>
-                    <a href = ' #' > <img className = 'avatar-mobile' alt = ' avatar' src = {Avatar} /> </a>
+            <header className = 'header '>
+                <div className="menu-mobile ">
+                    <a href = '#' > <img className = ' logo-mobile' alt = ' logo' src = {Logo} /> </a>
+                    <div className = 'menu-mobile-opcao'>
+                        <a href = ' #' onClick = {botaoMenu} > <img className = 'sumir setaFechar' alt = ' seta' src = {SetaFechar} /> </a>
+                        <a href = ' #' onClick = {botaoMenu} > <img className = 'seta' alt = ' seta' src = {Seta} /> </a>
+                        <a href = ' #' > <img className = 'avatar-mobile' alt = ' avatar' src = {Avatar} /> </a>
+                    </div>
+                </div>
+            
+                <div className="div-logo">
+                    <a href = '#' > <img className = ' logo' alt = ' logo' src = {Logo} /> </a>
+                    <a  href = ' #' > My Classes</a>
+                </div>
+                <div className="div-avatar">
+                    <button className = 'button-avatar'>CHANGE TO TEACHER MODE</button>
+                    <a href = ' #' > <img className = 'avatar' alt = ' avatar' src = {Avatar} /> </a>
+                </div>
+            </header>
+
+            <div className = 'sumir container-change'>
+                <div className="change">
+                    <h2>CHANGE TO TEACHER MODE</h2>
+                    <a href= '#'> <img className = 'setaOpcao' alt = ' seta Opçao' src = {SetaOpcao} />  </a>
                 </div>
             </div>
-          
-            <div className="div-logo">
-                <a href = '#' > <img className = ' logo' alt = ' logo' src = {Logo} /> </a>
-                <a  href = ' #' > My Classes</a>
-            </div>
-            <div className="div-avatar">
-                <button className = 'button-avatar'>CHANGE TO TEACHER MODE</button>
-                <a href = ' #' > <img className = 'avatar' alt = ' avatar' src = {Avatar} /> </a>
-            </div>
-        </header>
-
-        <div className = 'sumir container-change'>
-            <div className="change">
-                <h2>CHANGE TO TEACHER MODE</h2>
-                <a href= '#'> <img className = 'setaOpcao' alt = ' seta Opçao' src = {SetaOpcao} />  </a>
-            </div>
-        </div>
 
         
         </>

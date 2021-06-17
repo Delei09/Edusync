@@ -9,7 +9,7 @@ const Section = () =>  {
 
     return(
         <section className = ' section'>
-            <img className = 'detalhe' src = {Detalhe} />
+            <img alt = 'detalhe' className = 'detalhe' src = {Detalhe} />
             <div className="section-texto">
                 <h2>Hello <span className = 'student'> Student   </span> <span className= 'ponto' >.</span>  </h2>
                 <h4>
