@@ -10,6 +10,12 @@
     color: white;
     
 }
+.sumir{
+    display: none;
+}
+.aparecer{
+    display: flex;
+}
 .container-change{
     display: none;
 }
@@ -120,10 +126,5 @@ a{
         color: #7A57FD;
         margin-left: 12px;
     }
-    .sumir{
-        display: none;
-    }
-    .aparecer{
-        display: flex;
-    }
+   
 }
