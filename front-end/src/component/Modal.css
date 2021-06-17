@@ -103,7 +103,7 @@
         margin: 0 auto;
         }
     .fechar{
-        width: 15.94vw;
+        width: 16px;
         height: 14px;
         background: #6A40E4;
         top: 5px;
@@ -113,37 +113,40 @@
     }
     .olho{
         position: absolute;
-        top: 50px;
-        left: 85%;
-        display: none;
-        width: 5.96vw;
-        height: 14px;
+        top: 258px;
+        left: 83%;
+        width: 7.5vw;
+        height: 24px;
+        float: right;
     }
     .olhoMostrar{
         position: absolute;
-        top: 270px;
-        right: 6%;
-        width: 5.96vw;
-        height: 14px;
+        top: 258px;
+        left: 83%;
+        width: 7.5vw;
+        height: 24px;
+        float: right;
     }
     .modal-texto{
         width: 84.38vw;
-        height: 11.88vh;
-        margin: 7% auto;
+        height: 70px;
+        margin: 24px auto;
     }
     .modal-container h2{
         font-size: 28px;
         letter-spacing: -6%;
+        font-family: 'Poppins', sans-serif;
         }
     .just{
         font-size: 32px;
         font-weight: 700;
         letter-spacing: -2%;
+        
     }
     .modal-container label{
         font-size: 14px;
         color: white;   
-        margin: 1% 9%; 
+        margin: 16px 40px 2px; 
     }
     .buttonLogin{
         width: 85vw;

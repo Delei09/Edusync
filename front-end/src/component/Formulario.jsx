@@ -12,13 +12,17 @@ const Formulario = () => {
     }
     function radioForm(e){
         const dados = e.target.value
-        console.log(dados)
+        
     }
 
 
     function borda(){
         const radio1 = document.querySelector('.bordaRadio1')
         const radio2 = document.querySelector('.bordaRadio2')
+        const inputRadio1 =document.querySelector('.input-radio1')
+        const inputRadio2 =document.querySelector('.input-radio2')
+
+        console.log(inputRadio1)
 
         if(radio2.classList.contains('sumirBorda')){
 
@@ -29,6 +33,14 @@ const Formulario = () => {
 
             radio1.classList.remove('aparecerBorda')
             radio1.classList.add('sumirBorda')
+
+            inputRadio2.classList.add('checkOk')
+            inputRadio2.classList.remove('check')
+
+            inputRadio1.classList.add('check')
+            inputRadio1.classList.remove('checkOk')
+
+          
         }else{
             setRadio('teacher')
             radio1.classList.remove('sumirBorda')
@@ -36,6 +48,12 @@ const Formulario = () => {
 
             radio2.classList.remove('aparecerBorda')
             radio2.classList.add('sumirBorda')
+
+            inputRadio1.classList.add('checkOk')
+            inputRadio1.classList.remove('check')
+
+            inputRadio2.classList.add('check')
+            inputRadio2.classList.remove('checkOk')
         }
         
     }
@@ -54,6 +72,7 @@ const Formulario = () => {
                                 value = ' radio1'
                                 checked = {true}
                                 onClick = {borda}
+                                className= 'input-radio1 checkOk'
                                 />
                         <label class="labelRadio" htmlFor ="teacher">
                             I'M A TEACHER
@@ -64,6 +83,7 @@ const Formulario = () => {
                         value = ' radio2'
                                 id="student"
                                 onClick = {borda}
+                                className= 'input-radio2 check'
                                 />
                         <label class="labelRadio" for="student">
                             I'M A STUDENT

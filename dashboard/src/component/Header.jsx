@@ -22,6 +22,8 @@ const Header = () =>  {
             seta.classList.remove('aparecer')
             setaFechar.classList.remove('sumir')
             setaFechar.classList.add('aparecer')
+
+         
         }else{
                 tag.classList.remove('aparecer')
                 tag.classList.add('sumir')
@@ -37,8 +39,8 @@ const Header = () =>  {
 
     return(
         <>
-        <header className = 'header'>
-            <div className="menu-mobile">
+        <header className = 'header '>
+            <div className="menu-mobile ">
                 <a href = '#' > <img className = ' logo-mobile' alt = ' logo' src = {Logo} /> </a>
                 <div className = 'menu-mobile-opcao'>
                     <a href = ' #' onClick = {botaoMenu} > <img className = 'sumir setaFechar' alt = ' seta' src = {SetaFechar} /> </a>

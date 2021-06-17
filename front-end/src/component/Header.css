@@ -42,6 +42,7 @@
     outline: none;
     border: none;
     z-index: 1001;
+    margin-right: 5px;
 }
 @media screen and (max-width: 1440px) {
     .header{

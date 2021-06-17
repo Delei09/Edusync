@@ -23,7 +23,7 @@ margin-top: 30px;
 
 }
  
-input[type='radio']:after {
+  .check:after {
     width: 18px;
     height: 18px;
     border-radius: 50%;
@@ -35,9 +35,9 @@ input[type='radio']:after {
     display: inline-block;
     visibility: visible;
     cursor: pointer;
-}
+} 
 
-input[type='radio']:checked:after {
+.checkOk:after {
     width: 15px;
     height: 15px;
     border-radius: 15px;
@@ -48,11 +48,10 @@ input[type='radio']:checked:after {
     content: '';
     display: inline-block;
     visibility: visible;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 .labelRadio{
     color: white;
-    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
